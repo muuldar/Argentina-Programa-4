@@ -4,7 +4,7 @@ label,input { margin: 0.5em; }
 /* formato footer*/
 html, body {
     margin: 0;
-    /*background-color: #77cc6d;*/
+    background-color: #77cc6d;
     font-family: 'Raleway Dots', sans-serif;
   }
   
@@ -66,24 +66,3 @@ html, body {
     max-width: 300px;
   }
   */
-  /*Imagen de ondo */
-  .fondo-imagen {
-    background-image: url(/recursos/fondo.jpg);
-    /* Para este ejemplo usamos el archivo que está dentro de una carpeta imagenes 
-    en nuestro proyecto */
-  
-    /* 
-    Puedes modificar como se ve la imagen de fondo con las siguientes propiedades:
-    */
-  
-    /*
-    ###########################
-    background-position:
-    background-repeat:background-size:
-    background-repeat:
-    background-attachment:
-    ###########################
-    */
-  
-    /* A continuación explicamos cada como funciona cada propiedad. */
-  }
