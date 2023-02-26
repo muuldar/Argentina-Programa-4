@@ -4,10 +4,22 @@ label,input { margin: 0.5em; }
 /* formato footer*/
 html, body {
     margin: 0;
-    background-color: #77cc6d;
+    background-color: rosybrown;
+    background-image:url(fondo.jpg);
+    background-size: cover;
+   
     font-family: 'Raleway Dots', sans-serif;
-  }
-  
+}
+  /* ormato encabezado*/
+  #encabezado {
+  background-color: aqua;
+  background-image:url(encabezado.jpg);
+  background-size: 100% 100%;
+  /*background-image: url("recursos/encabezado.jpg");
+  background-size: 100% 100%;
+  */
+}
+
   section #services {
     text-align: center;
     transform: translatez(0);
@@ -66,3 +78,25 @@ html, body {
     max-width: 300px;
   }
   */
+  /*Imagen de ondo */
+  /*.fondo-imagen {
+    background-image: url(/recursos/fondo.jpg);
+    /* Para este ejemplo usamos el archivo que está dentro de una carpeta imagenes 
+    en nuestro proyecto */
+  
+    /* 
+    Puedes modificar como se ve la imagen de fondo con las siguientes propiedades:
+    */
+  
+    /*
+    ###########################
+    background-position:
+    background-repeat:background-size:
+    background-repeat:
+    background-attachment:
+    ###########################
+    */
+  
+    /* A continuación explicamos cada como funciona cada propiedad. 
+    background-size: cover;
+  }*/
