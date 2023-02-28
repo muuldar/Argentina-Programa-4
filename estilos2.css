@@ -1,5 +1,7 @@
 /* formato formulario*/
-form { font: 1em/1.5 monospace; }
+form { font: 1em/1.5 monospace; 
+margin-top:  200px; 
+}
 label,input { margin: 0.5em; }
 
 html, body {
@@ -19,10 +21,36 @@ html, body {
   background-size: 100% 100%;
   */
 }
+.imagen {
+  display: flex;
+  justify-content:right;
+  align-items:center;
+ 
+}
+#imagen {
+  margin: 50px;
+ 
+  min-height: 200px;
+}
 h1,h2 { 
    color: #ffffff;
+   
 }
-
+h1 {
+  font-size: 70px;
+  font-style: italic;
+  margin-left: 20%;
+ padding-top: 150px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  margin-left: 25%;
+  padding-top: 70px;
+  color: red;
+}
 p {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
@@ -49,14 +77,24 @@ nav a {
     
 
 }
-
+#iconos {
+ text-align: center;
+}
+.ico{
+  padding: 50px;
+ 
+}
 
 #sobreMi {
   text-align: center;
   margin: 0 auto;
   max-width: 70%;
 }
-
+ .exper  {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 70%;
+ }
 
 
 /* formato footer*/
